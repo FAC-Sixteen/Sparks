@@ -186,12 +186,33 @@ button {
     font-family: 'Fugaz One', cursive;
     font-size: 1em;
     text-transform: uppercase;
-    height: 100px;
+    border: none;
+    /* height: 100px;
     width: 100px;
     border: solid rgb(237, 242, 248) 3px;
-    color: rgb(237, 242, 248);
+    color: rgb(237, 242, 248); */
     background-color: #202C39;
-    margin: 3px;
-    border-radius: 50%;
-    margin: 10px 5px;
+    /* margin: 3px; */
+    /* border-radius: 50%; */
+    margin: 10px 10px;
+    
+}
+
+button img {
+    margin: 0px;
+    padding: 0px 5px;
+  width: 150px;
+  height: auto;
+   
+}
+
+.github:hover {
+    background: url(/img/linkedin.png) center;
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+  
+}
+
+.github img:hover {
+    opacity: 0;
 }
