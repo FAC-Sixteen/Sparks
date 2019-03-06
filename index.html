@@ -45,6 +45,7 @@
       <div class="profile-card">
         <img class="profile-card__image" alt="" src="https://journeypurebowlinggreen.com/wp-content/uploads/2018/05/placeholder-person.jpg">
         <h2 class="profile-card__name">Jeff Goldblum </h2>
+        <h3 class="profile-card__title">Something special</h3>
         <p class="profile-card__description">I was part of something special. I was part of something special. I was
           part of something special. Hey, take a look at the earthlings. Goodbye! Forget the fat lady! You're
           obsessed with the fat lady! Hey, take a look at the earthlings.</p>
@@ -58,6 +59,7 @@
       <div class="profile-card">
         <img class="profile-card__image" alt="" src="https://journeypurebowlinggreen.com/wp-content/uploads/2018/05/placeholder-person.jpg">
         <h2 class="profile-card__name">Jeff Goldblum </h2>
+        <h3 class="profile-card__title">Something special</h3>
         <p class="profile-card__description">I was part of something special. I was part of something special. I was
           part of something special. Hey, take a look at the earthlings. Goodbye! Forget the fat lady! You're
           obsessed with the fat lady! Hey, take a look at the earthlings.</p>
@@ -71,6 +73,7 @@
       <div class="profile-card">
         <img class="profile-card__image" alt="" src="https://journeypurebowlinggreen.com/wp-content/uploads/2018/05/placeholder-person.jpg">
         <h2 class="profile-card__name">Jeff Goldblum </h2>
+        <h3 class="profile-card__title">Something special</h3>
         <p class="profile-card__description">I was part of something special. I was part of something special. I was
           part of something special. Hey, take a look at the earthlings. Goodbye! Forget the fat lady! You're
           obsessed with the fat lady! Hey, take a look at the earthlings.</p>
@@ -82,21 +85,17 @@
       </div>
     </section>
     <section class="contact" id="contact">
-      <form>
-        <label for="name">Name </label>
-        <br>
-        <input name="name" id="name" pattern="[A-Za-z'\s]+" required>
-        <br>
-        <lable for="email">Email</lable>
-        <br>
-        <input name="email" id="email" pattern="/[-.\w]+@([\w-]+\.)+[\w-]{2,20}/gi" required>
-
-        <br>
-        <lable for="message">Message</lable>
-        <br>
-        <textarea name="message" row="10" cols="38" id="message" pattern="[.]{5}" required> </textarea>
-        <br>
-        <input type="submit">
+      <form class="contact-form">
+        <label for="name">
+          <input name="name" id="name" pattern="[A-Za-z'\s]+" required placeholder="Name">
+        </label>
+        <lable for="email">
+          <input name="email" id="email" pattern="/[-.\w]+@([\w-]+\.)+[\w-]{2,20}/gi" required placeholder="E-mail">
+        </lable>
+        <lable for="message">
+          <textarea placeholder="Hello..." name="message" id="message" pattern="[.]{5}" required></textarea>
+        </lable>
+        <input id="submit" type="submit">
       </form>
     </section>
     <footer>
