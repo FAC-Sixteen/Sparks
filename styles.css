@@ -214,5 +214,5 @@ button img {
 }
 
 button img:hover {
-    opacity: 0;
+    /* opacity: 0; */
 }
