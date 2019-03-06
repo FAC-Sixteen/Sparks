@@ -206,13 +206,13 @@ button img {
    
 }
 
-.github:hover {
+.linkedin:hover {
     background: url(/img/linkedin.png) center;
     background-repeat: no-repeat;
     background-size: 150px auto;
   
 }
 
-.github img:hover {
+button img:hover {
     opacity: 0;
 }
