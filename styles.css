@@ -161,8 +161,17 @@ header a {
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1em;
-    padding-right: 1em;
+    font-size: 1.5em;
+    padding: 0 5px;
+    margin-right: 1em;
+    margin-bottom: 3px;
+    transition: all .7s ease;
+    border-bottom: solid #1c2441 3px;
+}
+
+header a:hover {
+    color: #e7e3d0;
+    background-color: #1c2441;
 }
 
 .about {
@@ -189,13 +198,14 @@ img {
 }
 
 .profile-card {
-    border: solid red 2px;
+    border: solid #701515 20px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    padding: 30px;
-    max-width: 500px;
+    margin: 50px;
+    padding: 30px 30px;
+    max-width: 400px;
 }
 
 .profile-card__links {
@@ -204,6 +214,8 @@ img {
 
 .profile-card__description {
     margin: 10px 0;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
 }
 
 h2 {
@@ -211,7 +223,8 @@ h2 {
     font-family: 'Fugaz One', cursive;
     text-transform: uppercase;
     margin: 10px 0;
-    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px 2px #df1818;
+    letter-spacing: 1px;
 }
 
 h3 {
@@ -220,6 +233,7 @@ h3 {
     font-weight: normal;
     text-transform: uppercase;
     margin: 10px 0;
+    letter-spacing: 1px;
 }
 
 img {
@@ -230,15 +244,31 @@ img {
 button {
     font-family: 'Fugaz One', cursive;
     font-size: 1em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    border: none;
     height: 100px;
     width: 100px;
-    border: solid #e7e3d0 3px;
-    color: #e7e3d0;
+    /* border: solid #e7e3d0 3px;
+    color: #e7e3d0; */
     background-color: #1c2441;
     margin: 3px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin: 10px 5px;
+}
+
+button img {
+    margin: 0px;
+    padding: 0px 5px;
+    width: 100px;
+    height: auto;
+
+}
+
+.linkedin:hover {
+    background: url(/img/linkedin.png) center;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+
 }
 
 .contact {
@@ -260,7 +290,7 @@ button {
 .contact-form textarea {
     height: 50px;
     width: 400px;
-    background: #e7e3d0;
+    background: rgba(231, 227, 208);
     margin: 10px;
     text-transform: uppercase;
     font-size: 1em;
@@ -279,4 +309,9 @@ button {
     font-size: 1em;
     display: flex;
     justify-content: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
 }
