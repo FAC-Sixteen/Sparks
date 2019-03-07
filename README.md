@@ -2,8 +2,11 @@
 
 **The Elite Four**
 Anna @aniablaziak
+
 Rachel @Rachyanh
+
 Bobby @bobbysebolao
+
 Kate @dubhcait
 
 ## Our aims:
