@@ -265,10 +265,23 @@ button img {
 }
 
 .linkedin:hover {
-    background: url(/img/linkedin.png) center;
+    background: url(/img/linkedin_h.svg) center;
     background-repeat: no-repeat;
     background-size: 100px auto;
 
+}
+
+.github:hover {
+    background: url(/img/github_h.svg) center;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+}
+
+.codewars:hover {
+    background: url(/img/codewars_h.svg) center;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+    border-radius: 50%;
 }
 
 .contact {
