@@ -12,13 +12,23 @@ Kate @dubhcait
 
 ## Our aims:
 
+- responsive layout
+- accessible
+- simple and aesthetic design
+
 ## Layout and colour scheme:
 
 >>>Bobby's notes<<<
 
 ## Accessibility:
 
->>>insert audit screenshot<<<
+- contrasting colours
+- attributes
+- bold, large font
+- easy keyboard navigation
+
+![alt text](https://i.ibb.co/QX4FFFF/Screenshot-2019-03-07-at-16-22-36.png)
+
 
 ## Issues we faced:
 
