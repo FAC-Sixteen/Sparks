@@ -21,36 +21,36 @@ for (let i = 0; i < words.length; i++) {
 
     (function (j) {
       setTimeout(function () {
-      typed.textContent += words[i][j];
+        typed.textContent += words[i][j];
 
-    }, baseline+(delay*j));
+      }, baseline + (delay * j));
       // if (j == words[i].length-1) {
       //   countdown = j;
       // }
-  })(j);
+    })(j);
     // typed.textContent = "";
-
-}
-
-
-    // for (let j = 0; j < words[i].length; j++) {
-
-//     (function (j) {
-//       setTimeout(function () {
-//       typed.textContent += words[i][j];
-
-//     }, baseline+(delay*j));
-//       // if (j == words[i].length-1) {
-//       //   countdown = j;
-//       // }
-//   })(j);
-
-// }
-
-  // console.log(words[i].split("").slice(0, -1).join(""));
-
-  baseline += (delay*words[i].length)*4;
 
   }
 
-  // console.log(typed.innerText.length);
+
+  // for (let j = 0; j < words[i].length; j++) {
+
+  //     (function (j) {
+  //       setTimeout(function () {
+  //       typed.textContent += words[i][j];
+
+  //     }, baseline+(delay*j));
+  //       // if (j == words[i].length-1) {
+  //       //   countdown = j;
+  //       // }
+  //   })(j);
+
+  // }
+
+  // console.log(words[i].split("").slice(0, -1).join(""));
+
+  baseline += (delay * words[i].length) * 4;
+
+}
+
+// console.log(typed.innerText.length);
