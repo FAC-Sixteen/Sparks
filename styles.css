@@ -162,16 +162,17 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5em;
-    padding: 0 5px;
+    padding: 5px 10px;
     margin-right: 1em;
-    margin-bottom: 3px;
     transition: all .7s ease;
-    border-bottom: solid #1c2441 3px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 header a:hover {
     color: #e7e3d0;
     background-color: #1c2441;
+    height: 100%;
 }
 
 .about {
@@ -254,6 +255,7 @@ button {
     margin: 3px;
     /* border-radius: 50%; */
     margin: 10px 5px;
+    cursor: pointer;
 }
 
 button img {
@@ -322,6 +324,7 @@ button img {
     font-size: 1em;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 footer {
