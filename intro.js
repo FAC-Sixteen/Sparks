@@ -4,7 +4,7 @@ console.log(typed.textContent.length);
 
 // console.log(typed.innerText.length);
 
-let words = ["Creative Coders...", "Daring Designers...", "Web Developers...", "Pokemon Lovers...", "Team Elite"];
+let words = ["Creative Coders... ", "Daring Designers... ", "Web Developers... ", "Pokemon Lovers... ", "Team Elite"];
 
 // console.log(words[0].split("").slice(0, [words[0].length]).join(""));
 
@@ -21,7 +21,7 @@ for (let i = 0; i < words.length; i++) {
 
     (function (j) {
       setTimeout(function () {
-      typed.textContent += words[i][j] + "<br>";
+      typed.textContent += words[i][j];
 
     }, baseline+(delay*j));
       // if (j == words[i].length-1) {

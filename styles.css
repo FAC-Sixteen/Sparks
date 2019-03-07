@@ -180,6 +180,53 @@ header a:hover {
     background-color: #e7e3d0;
 }
 
+.intro {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Fugaz One', cursive;
+  color: #701515;
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.typed {
+  font-family: 'Fugaz One', cursive;
+  color: #1c2441;
+}
+
+.typed::after {
+  content:'▋';
+  display:inline;
+  -webkit-animation:.7s infinite blink;
+  animation:.7s infinite blink;
+/*   animation-name: blink;
+  animation-duration: 0.7s; */
+  animation-timing-function: ease;
+  animation-delay: 0s;
+/*   animation-iteration-count: infinite; */
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes blink {
+  0%,100% {
+    opacity:1
+  }
+  50% {
+    opacity:0
+  }
+}
+
+@-webkit-keyframes blink {
+  0%,100% {
+    opacity:1
+  }
+  50% {
+    opacity:0
+  }
+}
+
 .team {
     padding-top: 10vh;
     display: flex;
@@ -249,38 +296,53 @@ button {
     height: 100px;
     width: 100px;
     background-color: #1c2441;
-    margin: 3px;
+    margin: 30px;
     margin: 10px 5px;
     cursor: pointer;
 }
 
 button img {
     margin: 0px;
-    padding: 0px 5px;
+    padding: 0px 2px;
     width: 100px;
     height: auto;
 
 }
 
-.linkedin:hover {
-    background: url(/img/linkedin_h.svg) center;
+button img:hover {
+  margin: 2px -3px;
+
+}
+
+button.linkedin {
+  width: 95px;
+  height: 95px;
+  margin-right: 10px;
+}
+
+button.linkedin:hover {
+    background: #701515;
     background-repeat: no-repeat;
     background-size: 100px auto;
+    border-radius: 50%;
 
 }
 
 .github:hover {
-    background: url(/img/github_h.svg) center;
-    background-repeat: no-repeat;
-    background-size: 100px auto;
-}
-
-.codewars:hover {
-    background: url(/img/codewars_h.svg) center;
+    background: #701515;
     background-repeat: no-repeat;
     background-size: 100px auto;
     border-radius: 50%;
 }
+
+.codewars:hover {
+    background: #701515;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+    border-radius: 50%;
+}
+
+
 
 .contact {
     margin: 0 auto;
