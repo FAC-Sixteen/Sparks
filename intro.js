@@ -7,6 +7,8 @@ let words = ["Creative Coders... ", "Daring Designers... ", "Web Developers... "
 let delay = 40;
 let baseline = 0;
 
+typed.textContent = ""
+
 for (let i = 0; i < words.length; i++) {
 
   for (let j = 0; j < words[i].length; j++) {
