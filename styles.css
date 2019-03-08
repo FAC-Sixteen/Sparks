@@ -26,7 +26,7 @@ header a {
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 5px 10px;
     margin-right: 1em;
     transition: all .7s ease;
@@ -282,5 +282,9 @@ footer {
 
     .about__heading {
         padding-top: 100px;
+    }
+
+    .header a {
+        font-size: 1.5em;
     }
 }
