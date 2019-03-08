@@ -110,12 +110,6 @@ header a:hover {
     align-items: center;
 }
 
-.contact {
-    padding-top: 10vh;
-    height: 100vh;
-    background-color: #e7e3d0;
-}
-
 img {
     height: 200px;
     width: 200px;
@@ -211,6 +205,9 @@ button img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 10vh;
+    height: 100vh;
+    background-color: #e7e3d0;
 }
 
 .contact__header {
@@ -223,13 +220,13 @@ button img:hover {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .contact-form input,
 .contact-form textarea {
     height: 50px;
-    width: 400px;
+    width: 300px;
     background: rgba(231, 227, 208);
     margin: 10px;
     text-transform: uppercase;
@@ -286,5 +283,10 @@ footer {
 
     .header a {
         font-size: 1.5em;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 400px;
     }
 }
