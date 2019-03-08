@@ -207,11 +207,8 @@ header a:hover {
     display: inline;
     -webkit-animation: .7s infinite blink;
     animation: .7s infinite blink;
-    /*   animation-name: blink;
-  animation-duration: 0.7s; */
     animation-timing-function: ease;
     animation-delay: 0s;
-    /*   animation-iteration-count: infinite; */
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
