@@ -13,12 +13,12 @@ for (let i = 0; i < words.length; i++) {
 
     (function (j) {
       setTimeout(function () {
-      typed.textContent += words[i][j];
+        typed.textContent += words[i][j];
 
     }, baseline+(delay*j));
   })(j);
 
-}
+  }
 
   baseline += (delay*words[i].length)*4;
 

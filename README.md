@@ -18,7 +18,11 @@ Kate @dubhcait
 
 ## Layout and colour scheme:
 
->>>Bobby's notes<<<
+We opted for a mobile-first approach to building the site. This informed our decision to use a single-column layout for mobile devices, and a row layout for desktop screens.
+
+We used the colour wheel to find colours that complement each other, and we agreed on three that we were happy to use for the site. We added a fourth later to add extra contrast to our h2 section headings. We also limited ourselves to using two fonts - Fugaz One and Source Sans Pro - for consistency and clarity.
+
+We each contributed to the site design in different ways, and we documented these choices in Figma: https://www.figma.com/file/bV337Wm28ExGq2NeL3hqnBhW/Personal-Colors?node-id=0%3A1
 
 ## Accessibility:
 
@@ -32,6 +36,18 @@ Kate @dubhcait
 
 ## Issues we faced:
 
+- We were over ambicious with the aditional features we tied to add;
+    CSS transformation
+- Git was a trial
+
+
 ## Lessons learned:
+- need to comment code
+- communication is key
+- take more breaks
+- Set a deadline on experimentation time 
 
 ## Errors and things to keep in mind in the future:
+- Git is unforgiving
+- styling wills
+- leave proofing time at the end
